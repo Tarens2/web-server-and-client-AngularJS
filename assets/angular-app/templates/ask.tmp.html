@@ -1,0 +1,13 @@
+<section class="talk">
+	<a href="#ask" class="ask">Let's talk</a>
+	<form class="" name="startForm" ng-submit="startForm.$valid && ask.addQuestion()" novalidate>
+
+		<h4>Ask your question right now!</h4>		
+		<fieldset class="form-group">
+			<textarea ng-model="ask.question.body" class="form-control" placeholder="Write a short review of the project and about yourself..." title="Review"></textarea>
+		</fieldset>
+		<fieldset class="form-group">
+			<input type="submit" class="btn btn-primary pull-right" value="Ask!" />
+		</fieldset>
+	</form>
+</section>

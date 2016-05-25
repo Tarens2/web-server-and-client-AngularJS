@@ -1,0 +1,123 @@
+
+<!--     services     -->	
+
+<section class="services" ng-controller="serviceController">
+	<h1 class="serv-headline">{{services.headline}}</h1>
+	<p class="serv-text">{{services.text}}</p>
+	<div class="serv-container">
+		<div class="serv-items-container-{{item.id}}"ng-repeat="item in serviceItems">
+			<div class="serv-item" ng-repeat="i in item.serv"><img class="serv-item-img"ng-src="{{i.img}}">
+			<br>
+			<a>{{i.textA}}</a></div>		
+		</div>			
+	</div>
+</section> 
+<!--     works  -->               
+<section class="works">
+	<div class="row">
+		<h1 class="col-sm-6 works-headline">{{works.headline}}</h1>
+		<p class="col-sm-6 works-text">{{works.text}}</p>	
+	</div>
+		
+</section>
+<!--     projects                 -->
+<section class="row project" ng-controller="projectController as proj">
+	<div class="col-md-5 col-sm-12 project-info">
+		<h1 class="project-headline">{{projects.headline}}</h1>
+		<p class="project-text">{{projects.text}}</p><br>
+		<div class="cont-but">
+			<a href="http://exaple.com"class="top-project-button">see it live</a>
+		</div>
+	</div>
+	<div class="col-md-7 col-sm-12 device-slider">			
+		<div>				
+			<img ng-repeat="dev in devices" ng-show="proj.isActive($event,'{{dev.device}}');" class="device {{dev.device}}" ng-src="{{dev.url}}">			
+		</div>
+		<div class="device-buttons" >
+			<img ng-repeat="dev in devices" class="device-button {{dev.device}}" ng-click="proj.changeDevice($event,dev.device);" ng-src="{{dev.iconUrl}}">				
+		</div>
+	</div>		
+</section>
+<!--	read 					-->
+<section class="read" >
+	<div class="row read-info">
+		<h1 class="col-md-6 col-sm-12 read-headline">{{read.headline}}</h1>
+		<p class="col-md-6 col-sm-12 read-text">{{read.text}}</p><br>
+	</div>
+	<div class="read-table" ng-controller="readController">
+		<div class="row read-table-headline">
+			<div class="col-xs-6 headline-item">Title & Description</div>
+			<div class="col-xs-3 headline-item">date</div>
+			<div class="col-xs-3 headline-item">who</div>
+		</div>
+		<div class="read-table-item" ng-repeat="mind in minds">				
+			<div class="row all-info">
+				<div class="col-xs-6">{{mind.title}}</div>
+				<div class="col-xs-3 data">{{mind.date}}</div>
+				<div class="col-xs-3">{{mind.author}}</div>
+			</div>
+			<div class="row description">
+				<div class="col-xs-6 ">{{mind.description}}</div>
+			</div>
+		</div>			
+	</div>
+	<div class="row">
+		<div class="col-xs-6 col-xs-offset-3 read-more">See all Articles here</div>
+	</div>
+</section>
+<!--     team                 -->
+<section class="team" ng-controller="teamController">
+	<h1 class="team-headline">{{team.headline}}</h1>
+	<small class="team-small">Meet the entire team</small>
+	<p class="team-text">{{team.text}}</p>
+	<div class="team-members-container">		
+		<div class="team-members-container-1">
+			<div class="member" ng-repeat="member in members1">
+				<a href="#/member/{{member.id}}">
+					<img class="member-img" ng-src="{{member.photo}}">
+					<div class="red-hover">
+						<small class="name">{{member.name}}</small><br>
+						<small class="job">{{member.job}}</small>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="team-members-container-2">
+			<div class="member" ng-repeat="member in members2">
+				<a href="#/member/{{member.id}}">
+					<img class="member-img" ng-src="{{member.photo}}">
+					<div class="red-hover">
+						<small class="name">{{member.name}}</small><br>
+						<small class="job">{{member.job}}</small>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="team-members-container-3">
+			<div class="member" ng-repeat="member in members3">
+				<a href="#/member/{{member.id}}">
+					<img class="member-img" ng-src="{{member.photo}}">
+					<div class="red-hover">
+						<small class="name">{{member.name}}</small><br>
+						<small class="job">{{member.job}}</small>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+<div  ng-controller="sliderController" class="slider">
+	<slick dots="true" infinite=true  init-onload="true" data="slider">
+		<div class="slider-item"ng-repeat="slide in slider" >
+			<div >				
+				<h3>{{slide.headline}}</h3>
+				<p>{{slide.text}}</p>
+				<img ng-src="{{slide.image}}" alt="img01"/>
+			</div>
+		</div>
+	</slick>		
+
+</div>
+<section class="talk">
+	<a href="#ask" class="ask">Let's talk</a>
+</section>

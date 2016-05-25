@@ -1,0 +1,21 @@
+<form class=""name="startForm" ng-hide="start.hide" ng-submit="startForm.$valid && start.addNewProject(project)" novalidate>
+
+<!--  Live Preview -->
+	
+
+<!--  Review Form -->
+	<h4>Start new Project</h4>
+	
+	<fieldset class="form-group">
+		<textarea ng-model="start.newProject.body" class="form-control" placeholder="Write a short review of the project and about yourself..." title="Review"></textarea>
+	</fieldset>
+	<fieldset class="form-group">
+		<input ng-model="start.newProject.author" type="email" class="form-control" placeholder="jimmyDean@example.org" title="Email" required/>
+	</fieldset>
+	<fieldset class="form-group">
+		<input ng-model="start.newProject.name" class="form-control" placeholder="Alex" title="name" required/>
+	</fieldset>
+	<fieldset class="form-group">
+		<input type="submit" class="btn btn-primary pull-right" value="Submit Messege" />
+	</fieldset>
+</form>

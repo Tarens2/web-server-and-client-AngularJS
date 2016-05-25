@@ -1,0 +1,194 @@
+{
+	"services":{
+		"headline":"our services",
+		"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum. Aenean sodales dui quis leo fermentum scelerisque. Fusce condimentum dolor justo, ac tristique diam iaculis at.",
+		"serviceItems":[
+			{
+				"id":"1",
+				"serv":[
+					{
+						"img":"assets/images/serv-icon-1.png",
+						"textA":"Product Development"
+					},
+					{
+						"img":"assets/images/serv-icon-2.png",
+						"textA":"Digital Marketing"
+					},
+					{
+						"img":"assets/images/serv-icon-3.png",
+						"textA":"Data Acquisition"
+					}
+				]
+			},
+			{
+				"id":"2",
+				"serv":[
+					{
+						"img":"assets/images/serv-icon-4.png",
+						"textA":"Business Intelligence"
+					},
+					{
+						"img":"assets/images/serv-icon-5.png",
+						"textA":"Data Normalization"
+					},
+					{
+						"img":"assets/images/serv-icon-6.png",
+						"textA":"CRM Customization"
+					}
+				]
+			},
+			{
+				"id":"3",
+				"serv":[
+					
+					{
+						"img":"assets/images/serv-icon-7.png",
+						"textA":"SEO/SEM"
+					},
+					{
+						"img":"assets/images/serv-icon-8.png",
+						"textA":"Project Management"
+					}
+
+				]
+			}
+		]
+	},
+	"works":{
+		"headline":"our works",
+		"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum."
+	},
+	"read":{
+		"headline":"Read our minds",
+		"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat males"
+		,"minds":[
+			{
+				"title":"Weekly Digital Roundup",
+				"description":"Wi-Fi apple care volume reminder controls. My stations folders mac power ultimate upgrade. Shop online quicktime trackpad server aperture rumors education safari one to one.",
+				"data":"08/05/2014",
+				"who":"Adam Campbell"
+			},
+			{
+				"title":"somthing new",
+				"description":"Backlit keyboard chess phone airport extreme support iPad. Accessories magsafe terminal final cut pro. Featured TV shows downloads digital color meter. ",
+				"data":"07/05/2014",
+				"who":"Viktor Csuka"
+			},
+			{
+				"title":"things coming around",
+				"description":"Wi-Fi apple care volume reminder controls. My stations folders mac power ultimate upgrade. Shop online quicktime trackpad server aperture rumors education safari one to one.",
+				"data":"05/05/2014",
+				"who":"vivek ravin"
+			},
+			{
+				"title":"finally! we are here",
+				"description":"Glossy tech specs bluetooth manuals. OpenGL products FaceTime free shipping recycling mission control applications.",
+				"data":"24/04/2014",
+				"who":"Hikmet Arslan"
+			}
+		]
+	},
+	"project":{
+		"headline":"Project Title Here",
+		"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum."
+		,
+		"button":"see it live",
+		"devices":[
+			{"device":"mac","show":"false","iconUrl":"./assets/images/icon-mac.png",
+			"url":"./assets/images/notebook.png"},
+			{"device":"tab","show":"true","iconUrl":"./assets/images/icon-tab.png",
+			"url":"./assets/images/ipad.png"},
+			{"device":"mob","show":"true","iconUrl":"./assets/images/icon-mob.png",
+			"url":"./assets/images/iphone6.png"}			
+		]
+	},
+	"team":{
+		"headline":"WHO ARE WE?",
+		"small":"Meet the entire team",
+		"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		,		
+		"members":[
+			{
+				"id":"mem1",
+				"about":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"name":"12332Charlie Waite",				
+				"job":"UI Designer",
+				"photo":"./assets/images/member-1.jpg"
+			},
+			{
+				"id":"mem2",
+				"about":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"name":"Charlie Waite",				
+				"job":"UI Designer",
+				"photo":"./assets/images/member-2.jpg"
+			},
+			{
+				"id":"mem8",
+				"about":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"name":"Charlie Waite",				
+				"job":"UI Designer",
+				"photo":"./assets/images/member-3.jpg"
+			},
+			{
+				"id":"mem3",
+				"about":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"name":"Jule Five",				
+				"job":"UI Designer",
+				"photo":"./assets/images/member-4.jpg"
+			},
+			{
+				"id":"mem4",
+				"about":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"name":"Charlie Waite",				
+				"job":"UI Designer",
+				"photo":"./assets/images/member-5.jpg"
+			},
+			{
+				"id":"mem5",
+				"about":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"name":"Charlie Waite",				
+				"job":"UI Designer",
+				"photo":"./assets/images/member-6.jpg"
+			},
+			{
+				"id":"mem6",
+				"about":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"name":"Kitty White",				
+				"job":"UI Designer",
+				"photo":"./assets/images/member-7.jpg"
+			},
+			{
+				"id":"mem7",
+				"about":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"name":"Charlie Waite",				
+				"job":"UI Designer",
+				"photo":"./assets/images/member-8.jpg"
+			}		
+		]
+	},
+	"slider":[
+		{
+			"headline":"Slow Life (Vimeo)",
+			"text":"Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula eget.",
+			"image":"./assets/images/slide-1.png"
+		},
+		{
+			"headline":"Slow Life (Vimeo)",
+			"text":"Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula eget.",
+			"image":"./assets/images/slide-2.jpg"
+		},
+		{
+			"headline":"Slow Life (Vimeo)",
+			"text":"Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula eget.",
+			"image":"./assets/images/slide-3.jpg"
+		}
+	],
+	"footer":[
+		"© 2014 Ravin",
+		"contact@office.com",
+		"+91 9000 000 000",
+		"3 R.R.C street, Tamilnadu, India"
+	]
+
+	
+}
